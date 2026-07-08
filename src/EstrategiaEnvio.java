@@ -1,2 +1,2 @@
 public interface EstratetiaEnvio
-{  double calcularCosto(double pesoKg); //dw }
+{  double calcularCosto(double pesoKg); }
