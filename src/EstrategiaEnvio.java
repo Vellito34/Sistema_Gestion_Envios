@@ -1,2 +1,8 @@
-public interface EstratetiaEnvio
-{  double calcularCosto(double pesoKg); }
+public interface EstrategiaEnvio
+{
+    double calcularCosto(double pesoKg);
+
+    default boolean esRecargoUnico() {
+        return false;
+    }
+}
