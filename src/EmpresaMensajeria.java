@@ -10,6 +10,11 @@ public class EmpresaMensajeria {
 
     public void Reporte(){
         int ID = 0;
-
+        double dineroTotal = 0;
+        for (Paquete p: Almacen ){
+            System.out.println(p);
+            dineroTotal += p.obtenerCostoEnvio();
+        }
+        System.out.println("El dinero total obtenido es: $"+dineroTotal);
     }
 }
